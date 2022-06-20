@@ -1,0 +1,18 @@
+let a = 'Tôi là một string - chuỗi'
+console.log (a);
+
+//console.log(4 + 5 + 'a') // = 9 + a = 9a
+
+//console.log('a' + 4 + 5) // = a4 + 5 = a45
+// Javascript cộng từ trái qua phải
+//  số + số = Số, số + chữ = số chữ
+
+let b = `I'm a string`;
+let text = `We are the so called "Vikings".`;
+console.log(b);
+console.log(text);
+
+// sử dụng nháy đơn, kép '' "" dễ gặp lỗi khi in ra eng
+// thay vào đó ta dùng " ` " backtick 
+// hoặc dùng cú pháp " \ " ~ " \ nội dung ở trong \ "
+
